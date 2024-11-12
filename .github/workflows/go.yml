@@ -17,7 +17,6 @@ jobs:
 
     - name: Build
       run: go build -v ./...
-      working-directory: C:\AAAAA sem7\Agile Lab\lab5\agilelab5
-
+      
     - name: Test
       run: go test -v ./...
