@@ -47,5 +47,5 @@ jobs:
         host: 65.2.142.137
         user: ubuntu
         key: ${{ secrets.PRIVATE_KEY }}
-        scp: ./main.go => /home/ec2-user/app/main.go
-        last_ssh: chmod +x /home/ec2-user/app/main.go
+        scp: ./main.go => /home/ubuntu/app/main.go
+        last_ssh: chmod +x /home/ubuntu/app/main.go
